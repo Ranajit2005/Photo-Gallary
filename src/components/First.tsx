@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { Vortex } from "./ui/vortex";
+import Link from "next/link";
 
 // const btn = document.getElementById('btn');
 //   btn.addEventListener("click", function () {
@@ -21,9 +22,12 @@ export default function VortexDemo() {
         Photography captures moments, emotions, and stories through images, blending artistry with technical skill and vision.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
+          <Link href={'/contact'}> 
           <button id="btn" className="px-4 py-2 bg-gray-600 hover:bg-gray-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
             Join Our Club 
           </button>
+          </Link>
+          
           
         </div>
       </Vortex>
