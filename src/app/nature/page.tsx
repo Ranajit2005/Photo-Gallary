@@ -18,7 +18,7 @@ export default function page() {
       <div className="flex gap-5 mx-auto flex-wrap justify-center items-center">
         
 
-        <CardContainer className="inter-var">
+        {/* <CardContainer className="inter-var">
           <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
             
             <CardItem translateZ="100" className="w-full mt-4">
@@ -32,7 +32,7 @@ export default function page() {
             </CardItem>
             
           </CardBody>
-        </CardContainer>
+        </CardContainer> */}
         
         
         {pic.nature.map((picture)=>(<CardContainer className="inter-var">
