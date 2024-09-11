@@ -1,0 +1,44 @@
+{
+  "nature": [
+    {
+      "id": 1,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 2,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 3,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 4,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 5,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 6,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 7,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 8,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 9,
+      "image": "/nature/nature1.jpeg"
+    },
+    {
+      "id": 10,
+      "image": "/nature/nature1.jpeg"
+    }
+  ]
+}
