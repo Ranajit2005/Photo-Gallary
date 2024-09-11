@@ -6,6 +6,7 @@ import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
 import pic from "@/data/picture.json"
 
+
 export default function page() {
   return (
     <div className=" p-3 flex flex-col h-auto mt-16">
