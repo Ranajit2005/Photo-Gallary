@@ -5,6 +5,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
 import pic from "@/data/picture.json"
+import { BackgroundBeams } from "../../components/ui/background-beams";
 
 
 export default function page() {
@@ -51,6 +52,7 @@ export default function page() {
           </CardBody>
         </CardContainer>))}
       </div>
+      <BackgroundBeams />
     </div>
   );
 }
