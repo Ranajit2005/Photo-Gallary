@@ -28,7 +28,6 @@ export default function VortexDemo() {
           </button>
           </Link>
           
-          
         </div>
       </Vortex>
     </div>
