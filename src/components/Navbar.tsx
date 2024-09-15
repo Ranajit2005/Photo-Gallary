@@ -27,7 +27,7 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Photo type">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/nature">Nature</HoveredLink>
-            <HoveredLink href="#">Mountain</HoveredLink>
+            <HoveredLink href="/moutain">Mountain</HoveredLink>
             <HoveredLink href="#">River</HoveredLink>
             <HoveredLink href="#">People</HoveredLink>
           </div>
