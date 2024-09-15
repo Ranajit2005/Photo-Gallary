@@ -4,9 +4,8 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
-import pic from "@/data/moutain.json"
+import pic from "@/data/moutain.json";
 import { BackgroundBeams } from "../../components/ui/background-beams";
-
 
 export default function page() {
   return (
@@ -17,26 +16,27 @@ export default function page() {
         </h1>
       </div>
       <div className="flex gap-5 mx-auto flex-wrap justify-center items-center">
+        {/* 3D Card Section   */}
 
-      {/* 3D Card Section   */}
-        
-        {pic.moutain.map((picture)=>(<CardContainer className="inter-var">
-          <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-            
-            <CardItem translateZ="100" className="w-full mt-4">
-              <Image
-                src={picture.image}
-                height="1000"
-                width="1000"
-                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="thumbnail"
-              />
-            </CardItem>
-            
-          </CardBody>
-        </CardContainer>))}
+        {pic.moutain.map((picture) => (
+          <CardContainer className="inter-var">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+              <CardItem translateZ="100" className="w-full mt-4">
+                <Image
+                  src={picture.image}
+                  height="1000"
+                  width="1000"
+                  className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  alt="thumbnail"
+                />
+              </CardItem>
+            </CardBody>
+          </CardContainer>
+        ))}
       </div>
+
       <BackgroundBeams />
+      
     </div>
-  )
+  );
 }
