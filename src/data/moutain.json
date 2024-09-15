@@ -2,43 +2,43 @@
     "moutain":[
         {
             "id": 1,
-            "image": "/moutain/nature1.jpeg"
+            "image": "/moutain/moutain1.webp"
           },
           {
             "id": 2,
-            "image": "/moutain/nature2.avif"
+            "image": "/moutain/moutain2.webp"
           },
           {
             "id": 3,
-            "image": "/moutain/nature3.avif"
+            "image": "/moutain/moutain3.webp"
           },
           {
             "id": 4,
-            "image": "/moutain/nature4.avif"
+            "image": "/moutain/moutain4.avif"
           },
           {
             "id": 5,
-            "image": "/moutain/nature5.avif"
+            "image": "/moutain/moutain5.avif"
           },
           {
             "id": 6,
-            "image": "/moutain/nature6.avif"
+            "image": "/moutain/moutain6.avif"
           },
           {
             "id": 7,
-            "image": "/moutain/nature7.avif"
+            "image": "/moutain/moutain7.avif"
           },
           {
             "id": 8,
-            "image": "/moutain/nature8.avif"
+            "image": "/moutain/moutain8.avif"
           },
           {
             "id": 9,
-            "image": "/moutain/nature9.avif"
+            "image": "/moutain/moutain9.avif"
           },
           {
             "id": 10,
-            "image": "/moutain/nature10.avif"
+            "image": "/moutain/moutain10.avif"
           }
     ]
 }
