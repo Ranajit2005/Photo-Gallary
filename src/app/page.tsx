@@ -1,7 +1,7 @@
 import First from "../components/First";
 import Second from "../components/Second"
 import Third from "../components/Third"
-import Footer from "../components/Footer"
+// import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <First/>
         <Second/>
         <Third/>
-        <Footer/>
+        {/* <Footer/> */}
 
       </main>
       
