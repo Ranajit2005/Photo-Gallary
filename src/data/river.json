@@ -1,0 +1,45 @@
+{
+    "river": [
+      {
+        "id": 1,
+        "image": "/river/river1.webp"
+      },
+      {
+        "id": 2,
+        "image": "/river/river2.webp"
+      },
+      {
+        "id": 3,
+        "image": "/river/river3.avif"
+      },
+      {
+        "id": 4,
+        "image": "/river/river4.avif"
+      },
+      {
+        "id": 5,
+        "image": "/river/river5.avif"
+      },
+      {
+        "id": 6,
+        "image": "/river/river6.avif"
+      },
+      {
+        "id": 7,
+        "image": "/river/river7.avif"
+      },
+      {
+        "id": 8,
+        "image": "/river/river8.avif"
+      },
+      {
+        "id": 9,
+        "image": "/river/river9.avif"
+      },
+      {
+        "id": 10,
+        "image": "/river/river10.avif"
+      }
+    ]
+  }
+  
