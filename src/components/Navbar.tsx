@@ -28,8 +28,8 @@ function Navbar({ className }: { className?: string }) {
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/nature">Nature</HoveredLink>
             <HoveredLink href="/moutain">Mountain</HoveredLink>
-            <HoveredLink href="#">River</HoveredLink>
-            <HoveredLink href="#">People</HoveredLink>
+            <HoveredLink href="/moutain">River</HoveredLink>
+            <HoveredLink href="/nature">People</HoveredLink>
           </div>
         </MenuItem>
 
