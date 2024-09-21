@@ -11,7 +11,7 @@ export default function page() {
     <div className=" p-3 flex flex-col h-auto mt-16">
       <div className="text-center mb-7">
         <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl ">
-          Welcome to Our Moutain Photo Gallary
+          Welcome to Our River Photo Gallary
         </h1>
       </div>
       <div className="flex gap-5 mx-auto flex-wrap justify-center items-center">

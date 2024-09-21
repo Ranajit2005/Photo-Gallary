@@ -16,9 +16,11 @@ export default function Footer() {
             <div>
             <h2 className="text-lg text-white mb-5">Quick Link</h2>
                 <div className="flex flex-col">
-                    <a href="#" className="hover:text-white">Home</a>
-                    <a href="#" className="hover:text-white">Nature</a>
-                    <a href="#" className="hover:text-white">Contact</a>
+                    <a href="/" className="hover:text-white">Home</a>
+                    <a href="/nature" className="hover:text-white">Nature</a>
+                    <a href="/moutain" className="hover:text-white">Moutain</a>
+                    <a href="/river" className="hover:text-white">River</a>
+                    <a href="/contact" className="hover:text-white">Contact</a>
                 </div>
             </div>
 
