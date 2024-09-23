@@ -4,11 +4,7 @@ import { Label } from "../../components/ui/label";
 import { Input } from "../../components/ui/input";
 import { cn } from "@/lib/utils";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
-import {
-  IconBrandGithub,
-  IconBrandGoogle,
-  IconBrandOnlyfans,
-} from "@tabler/icons-react";
+
 
 export default function page() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
